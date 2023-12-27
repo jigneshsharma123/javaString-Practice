@@ -13,6 +13,7 @@ public class ReverseString {
         return output.toString();
        }
     public static void main(String[] args) {
-    
+        char[] arr = {'j','i','g','n','e','s','h'};
+       System.out.println(stringReverse(arr));
     }
 }
