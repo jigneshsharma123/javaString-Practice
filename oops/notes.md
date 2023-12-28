@@ -65,3 +65,84 @@
   1  The new keyword is used to allocate memory at runtime. 
   2. All objects get memory in Heap memory area.
 ```
+
+
+## 3 Ways to initialize object
+There are 3 ways to initialize object in Java.
+
+By reference variable <br>
+By method <br>
+By constructor <br>
+
+# What are the different ways to create an object in Java?
+#### There are many ways to create an object in java. They are:
+
+By new keyword <br>
+By newInstance() method <br>
+By clone() method <br>
+By deserialization <br>
+By factory method etc.<br>
+
+# Constructor 
+
+```
+ 1. Constructor is a special method having the same name as the class name. 
+ 2. constructor have no any return type 
+ 3. construcotor are of two type A . Non-parametrized constructor B. Parameratrized constructor.
+ 4. constructor is used to initiate the object. 
+ 5. if their is no any constructor present in the class JVM Automatically added a default constructor.
+
+```
+# function overloading 
+
+```
+  1. function overloading is the process of performing the multiple task with the same function by varying the number of parameter of the function/method. 
+
+            # OR
+If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+```
+
+## Different ways to overload the method
+
+#### There are two ways to overload the method in java
+
+1. By changing number of arguments
+2. By changing the data type
+3. not possible by changing return type due to ambiguity problem
+
+# method overriding 
+
+```
+1. If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+```
+
+## importance of overriding 
+
+1. Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+2. Method overriding is used for runtime polymorphism
+
+# Rules for Java Method Overriding
+
+
+a. The method must have the same name as in the parent class <br>
+b. The method must have the same parameter as in the parent class.<br>
+c. There must be an IS-A relationship (inheritance).
+
+# static keyword in java
+
+````
+1. static keyword is basically used for the memory management/optimization.
+
+2. it can be use during the variable creation(know as instance variable) , in the method creation(also know as class mehod)
+
+3. The static variable gets memory only once in the class area at the time of class loading.
+
+4.The static variable can be used to refer to the common property of all objects (which is not unique for each object), for example, the company name of employees, college name of students, etc.
+````
+## Advantages of static variable
+It makes your program memory efficient (i.e., it saves memory).
+***
+
+# for example visit the links : => https://www.javatpoint.com/static-keyword-in-java
+
+
