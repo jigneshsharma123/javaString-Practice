@@ -143,7 +143,30 @@ c. There must be an IS-A relationship (inheritance).
 It makes your program memory efficient (i.e., it saves memory).
 ***
 
-# for example visit the links : => https://www.javatpoint.com/static-keyword-in-java
+#### for example visit the links : => https://www.javatpoint.com/static-keyword-in-java
 
+<br>
 
+# this(Reference Variable) keyword in Java
 
+ ```
+ 1.  In Java, this is a <b>reference variable<b> that refers to the current object.
+
+ ```
+ ## Usage of Java this keyword
+
+ ```
+ 1. this can be used to refer current class instance variable.
+
+ 2. this can be used to invoke current class method (implicitly)
+
+ 3. this() can be used to invoke current class constructor.
+
+ // you have to only know  three usages  
+
+ 4. this can be passed as an argument in the method call.
+
+ 5. this can be passed as argument in the constructor call.
+
+ 6. this can be used to return the current class instance from the method.
+ ```
