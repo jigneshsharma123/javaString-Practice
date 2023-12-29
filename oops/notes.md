@@ -1,5 +1,11 @@
 //Note: Multiple inheritance is not supported in Java through class.
 //In java programming, multiple and hybrid inheritance is supported through interface only. 
+
+# what is java
+```
+java is high level object oriented programming language developed by the sunmicrosystem in 1995 after that it owned by the ORACLE. it uses a JVA(java virtual machine) as a run time environment. due to this  it is  also a platform independent. 
+```
+***
 ## what is class and object's in java 
 ```
   1. In java, a class is a blueprint or template for  creating   objects,
