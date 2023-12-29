@@ -180,4 +180,110 @@ It makes your program memory efficient (i.e., it saves memory).
 
  visit : https://www.javatpoint.com/inheritance-in-java
 
- 
+ ## Covariant Return Type
+
+ ```
+ 1. This feature was introduced in Java 5.
+ 2. it is possible to override method by changing the return type if subclass overrides any method whose return type is Non-Primitive but it changes its return type to subclass type.
+
+ ```
+
+#### example 
+
+
+``` 
+class Animal {
+    Animal get() {
+        return this;
+    }
+}
+
+class Dog extends Animal {
+   @Override
+    Dog get() {
+        return this;
+    }
+}
+
+
+```
+
+## Super Keyword in Java
+```
+
+1. The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+
+
+2. Whenever you create the instance of subclass, an instance of parent class is created implicitly which is referred by super reference variable.
+
+```
+
+#### Usage of Java super Keyword
+```
+A. uper can be used to refer immediate parent class instance variable.
+
+B. super can be used to invoke immediate parent class method.
+
+c. super() can be used to invoke immediate parent class constructor.
+
+```
+
+#### Final Keyword In Java
+
+```
+1. The final keyword in java is used to restrict the user.
+
+2. Final can be (Var, method, and class)
+```
+![Alt text](final.jpg)
+
+# Polymorphism in java
+```
+1. Polymorphism in Java is a concept by which we can perform a single action in different ways.
+
+2.Let's first understand the upcasting before Runtime Polymorphism.
+
+class A{}  
+class B extends A{}  
+A a=new B();//upcasting  
+```
+
+![Alt text](java-upcasting.png)
+
+#### Example of Java Runtime Polymorphism
+
+```
+class Bike{  
+  void run(){System.out.println("running");}  
+}  
+class Splendor extends Bike{  
+  void run(){System.out.println("running safely with 60km");}  
+  
+  public static void main(String args[]){  
+    Bike b = new Splendor();//upcasting  
+    b.run();  
+  }  
+}  
+//op=> running safely with 60km.
+```
+## downcasting by typecasting
+
+```
+Dog d=new Animal();//Compilation error  
+Dog d=(Dog)new Animal();  
+//Compiles successfully but ClassCastException is thrown at runtime  
+
+```
+
+## Abstract class in Java
+
+```
+1. A class which is declared with the abstract keyword is known as an abstract class in Java. 
+
+2. Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+
+3. There are two ways to achieve abstraction in java
+
+a. Abstract class (0 to 100%)
+b. Interface (100%)
+```
