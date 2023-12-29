@@ -19,15 +19,25 @@ class UsagesFirstofThis {
     }
 }
 
+class SecondUsageofThiskeyword {
+    // to invoke current class method we can also use the this.method_name().
+   //if we are not use this keyword then compiler autometically added the this keyword with the current class method
+   void m() {System.out.println("method is called by using this keyword");}
+   void n() {
+    System.out.println("Hello n");
+    //m(); //same as this.m();
+    this.m();
+   }
+}
 
 
 
 public class main {
   public static void main(String[] args) {
 
-  UsagesFirstofThis st1 = new UsagesFirstofThis("jignesh",34,324);
-  st1.PrintOutput();
+//   UsagesFirstofThis st1 = new UsagesFirstofThis("jignesh",34,324);
+//   st1.PrintOutput();
 
-  
+new SecondUsageofThiskeyword().n();
 }    
 }
