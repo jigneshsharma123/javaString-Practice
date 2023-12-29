@@ -1,3 +1,5 @@
+//Note: Multiple inheritance is not supported in Java through class.
+//In java programming, multiple and hybrid inheritance is supported through interface only. 
 ## what is class and object's in java 
 ```
   1. In java, a class is a blueprint or template for  creating   objects,
@@ -169,4 +171,13 @@ It makes your program memory efficient (i.e., it saves memory).
  5. this can be passed as argument in the constructor call.
 
  6. this can be used to return the current class instance from the method.
+
+ Notes : for example see the ConceptOfThisKeyword in the repo 
+
+ https://github.com/jigneshsharma123/javaString-Practice
  ```
+ # @To study more about the types of inheritance in java 
+
+ visit : https://www.javatpoint.com/inheritance-in-java
+
+ 
