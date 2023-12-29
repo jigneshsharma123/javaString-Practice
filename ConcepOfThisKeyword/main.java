@@ -30,6 +30,18 @@ class SecondUsageofThiskeyword {
    }
 }
 
+class ThirdUsageofThisKeyword {
+    // to invoke current class constructor we can use the this keyword 
+    //  it is used for constructor chaining OR it is used to resuse the constructor 
+    //e.g Calling default constructor from parameterized constructor:
+    
+    ThirdUsageofThisKeyword() {System.out.println("Hello ThirdUsageofThisKeyword");} //this is the default constructor or non-parametrazie constructor
+    ThirdUsageofThisKeyword(int x) {
+        this();
+        System.out.println(x);
+    }
+
+}
 
 
 public class main {
@@ -38,6 +50,11 @@ public class main {
 //   UsagesFirstofThis st1 = new UsagesFirstofThis("jignesh",34,324);
 //   st1.PrintOutput();
 
-new SecondUsageofThiskeyword().n();
+// new SecondUsageofThiskeyword().n();
+
+
+new ThirdUsageofThisKeyword(5);
+
+
 }    
 }

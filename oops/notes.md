@@ -160,7 +160,7 @@ It makes your program memory efficient (i.e., it saves memory).
 
  2. this can be used to invoke current class method (implicitly)
 
- 3. this() can be used to invoke current class constructor.
+ 3. this() can be used to invoke current class constructor.(it is used for constructor chaining OR  It is used to reuse the constructor. )
 
  // you have to only know  three usages  
 
