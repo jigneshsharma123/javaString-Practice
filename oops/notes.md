@@ -10,7 +10,7 @@
 
 ### 1. Inheritance=> 
    ```
-    a. When an object acquires all the properties and ehavours of a parent object, it is known as inheritance.
+    a. When an object acquires all the properties and behavours of a parent object, it is known as inheritance.
     b. it provides code reusability.
     c.it is used to achive runtime polymorphism.
 
@@ -156,7 +156,7 @@ It makes your program memory efficient (i.e., it saves memory).
  ## Usage of Java this keyword
 
  ```
- 1. this can be used to refer current class instance variable.
+ 1. this can be used to refer current class instance variable.(i.e:to remove the ambiguity if the parameter and instance variable having same name)
 
  2. this can be used to invoke current class method (implicitly)
 
