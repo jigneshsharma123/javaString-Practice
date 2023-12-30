@@ -1,3 +1,4 @@
+package String;
 public class StringCompare {
 
     public static void UsingEqualsMethod() {
