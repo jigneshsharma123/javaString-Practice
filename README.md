@@ -1,6 +1,8 @@
 //Note: Multiple inheritance is not supported in Java through class.
 //In java programming, multiple and hybrid inheritance is supported through interface only. 
 
+//some time u see a word Concrete method <-- (i.e method with body)
+
 # what is java
 ```
 java is high level object oriented programming language developed by the sunmicrosystem in 1995 after that it owned by the ORACLE. it uses a JVA(java virtual machine) as a run time environment. due to this  it is  also a platform independent. 
@@ -292,4 +294,42 @@ Dog d=(Dog)new Animal();
 
 a. Abstract class (0 to 100%)
 b. Interface (100%)
+
+4.  It can have abstract and non-abstract methods. 
+```
+### Rules for Java Abstraction 
+
+1. An abstract class must be declared with an abstract keyword.
+2. It can have abstract and non-abstract methods.
+3. It cannot be instantiated.
+4. It can have constructors and static methods also.
+5. It can have final methods which will force the subclass not to change the body of the method.
+
+##### Example of abstract class
+<code>
+abstract class A{}  </code> <br>
+
+##### Example of abstract method
+<code>
+abstract void printStatus();//no method body and abstract   </code> <br>
+
+# exmple of Abstraction 
+
+<code>
+
+abstract class Bike{  
+  abstract void run();  
+}  
+class Honda4 extends Bike{  
+void run(){System.out.println("running safely");}  
+public static void main(String args[]){  
+ Bike obj = new Honda4();  
+ obj.run();  
+}  
+}  
+</code>
+
+## Factory_Method()
+```
+1. A factory method is a method that returns the instance of the class.
 ```

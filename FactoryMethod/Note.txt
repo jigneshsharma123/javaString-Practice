@@ -1,0 +1,5 @@
+//this is an example of the abstraction using factoryClass/factory method
+
+FactoryMethod : is a way of creating an instance of a class. 
+
+A factory method is a method that returns the instance of the class
