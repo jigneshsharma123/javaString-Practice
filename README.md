@@ -5,7 +5,9 @@
 
 # what is java
 ```
-java is high level object oriented programming language developed by the sunmicrosystem in 1995 after that it owned by the ORACLE. it uses a JVA(java virtual machine) as a run time environment. due to this  it is  also a platform independent. 
+java is high level object oriented programming language developed by the sunmicrosystem in 1995 after that it owned by the ORACLE. it uses a JVM(java virtual machine) as a run time environment. due to this  it is  also a platform independent. 
+
+James Gosling is known as the father of Java. 
 ```
 ***
 ## what is class and object's in java 
@@ -51,7 +53,7 @@ java is high level object oriented programming language developed by the sunmicr
 # Syntax to declare a class:
 
 <code> 
- classs Class_Name { <br>
+ class Class_Name { <br>
     field; <br>
     method;<br>
     constructor;<br>
@@ -243,7 +245,7 @@ c. super() can be used to invoke immediate parent class constructor.
 
 2. Final can be (Var, method, and class)
 ```
-![Alt text](final.jpg)
+![Alt text](final.jpg) 
 
 # Polymorphism in java
 ```
@@ -333,3 +335,63 @@ public static void main(String args[]){
 ```
 1. A factory method is a method that returns the instance of the class.
 ```
+
+# Interface in JAVA
+
+```
+1. In Java, An interface is a collection of abstract methods.
+
+2. It is used to achieve abstraction.
+
+3. By interface, we can support the functionality of multiple inheritance
+```
+![Alt text](interface.png)
+
+## The relationship between classes and interfaces
+
+![Alt text](interfacerelation.jpg)
+
+## Java Interface Example
+
+interface printable{  
+void print();  
+}  
+class A6 implements printable{  
+public void print(){System.out.println("Hello");}  
+  
+public static void main(String args[]){  
+A6 obj = new A6();  
+obj.print();  
+ }  
+}  
+
+
+## Access Modifiers in Java
+```
+1. Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+
+2. Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+
+
+3. Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+
+
+4. Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+```
+### Let's understand the access modifiers in Java by a simple table.
+
+# Access Modifiers in Java
+
+This table illustrates the accessibility of members with different access modifiers within and outside a Java class.
+
+| Access Modifier | Within Class | Within Package | Outside Package (by Subclass Only) | Outside Package |
+|------------------|--------------|----------------|-------------------------------------|------------------|
+| Private          | Y            | N              | N                                   | N                |
+| Default          | Y            | Y              | N                                   | N                |
+| Protected        | Y            | Y              | Y                                   | N                |
+| Public           | Y            | Y              | Y                                   | Y                |
+
+- **Private:** Members with private access modifier are accessible only within the same class.
+- **Default:** Members with default access modifier (no modifier) are accessible within the same package.
+- **Protected:** Members with protected access modifier are accessible within the same package and by subclasses even outside the package.
+- **Public:** Members with public access modifier are accessible from anywhere.
