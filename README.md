@@ -10,6 +10,18 @@ java is high level object oriented programming language developed by the sunmicr
 James Gosling is known as the father of Java. 
 ```
 ***
+# Features of Java
+
+```
+1. Simple
+2. object-oriented
+3. platform independent
+4. secured
+5. robust
+6. multithread
+7. high performance
+```
+
 ## what is class and object's in java 
 ```
   1. In java, a class is a blueprint or template for  creating   objects,
@@ -395,3 +407,9 @@ This table illustrates the accessibility of members with different access modifi
 - **Default:** Members with default access modifier (no modifier) are accessible within the same package.
 - **Protected:** Members with protected access modifier are accessible within the same package and by subclasses even outside the package.
 - **Public:** Members with public access modifier are accessible from anywhere.
+
+# what is Encapsulation in java
+
+1. Encapsulation in java is a process of wrapping code and data together into a single unit, for example , a capsule which is mixed of several medicines.
+
+
