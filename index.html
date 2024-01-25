@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java ShortNotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>//Note: Multiple inheritance is not supported in Java through class.
+        //In java programming, multiple and hybrid inheritance is supported through interface only. </p>
+        <p>//some time u see a word Concrete method &lt;-- (i.e method with body)</p>
+        <h1 id="what-is-java">what is java</h1>
+        <pre><code>java is high level object oriented programming language developed <span class="hljs-keyword">by</span> <span class="hljs-keyword">the</span> sunmicrosystem <span class="hljs-keyword">in</span> <span class="hljs-number">1995</span> <span class="hljs-keyword">after</span> that <span class="hljs-keyword">it</span> owned <span class="hljs-keyword">by</span> <span class="hljs-keyword">the</span> ORACLE. <span class="hljs-keyword">it</span> uses <span class="hljs-keyword">a</span> JVM(java virtual machine) <span class="hljs-keyword">as</span> <span class="hljs-keyword">a</span> run <span class="hljs-built_in">time</span> environment. due <span class="hljs-built_in">to</span> this  <span class="hljs-keyword">it</span> is  also <span class="hljs-keyword">a</span> <span class="hljs-built_in">platform</span> independent. 
+        
+        James Gosling is known <span class="hljs-keyword">as</span> <span class="hljs-keyword">the</span> father <span class="hljs-keyword">of</span> Java.
+        </code></pre><hr>
+        <h1 id="features-of-java">Features of Java</h1>
+        <pre><code><span class="hljs-bullet">1. </span>Simple
+        <span class="hljs-bullet">2. </span>object-oriented
+        <span class="hljs-bullet">3. </span>platform independent
+        <span class="hljs-bullet">4. </span>secured
+        <span class="hljs-bullet">5. </span>robust
+        <span class="hljs-bullet">6. </span>multithread
+        <span class="hljs-bullet">7. </span>high performance
+        </code></pre><h2 id="what-is-class-and-object-s-in-java">what is class and object&#39;s in java</h2>
+        <pre><code>  <span class="hljs-number">1</span>. In java, <span class="hljs-selector-tag">a</span> class is <span class="hljs-selector-tag">a</span> blueprint or template <span class="hljs-keyword">for</span>  creating   objects,
+          <span class="hljs-number">2</span>. And an <span class="hljs-selector-tag">object</span> an instance of <span class="hljs-selector-tag">a</span> class. 
+          <span class="hljs-number">3</span>. Any Entity that has state and behavior is know as <span class="hljs-selector-tag">object</span>.
+          <span class="hljs-number">4</span>. For example: <span class="hljs-selector-tag">a</span> chair, pen, <span class="hljs-selector-tag">table</span>, keyboard, bike etc..
+        </code></pre><h2 id="piller-of-oops">piller of oops</h2>
+        <h3 id="1-inheritance-">1. Inheritance=&gt;</h3>
+        <pre><code>    <span class="hljs-selector-tag">a</span>. When an <span class="hljs-selector-tag">object</span> acquires all the properties and behavours of <span class="hljs-selector-tag">a</span> parent <span class="hljs-selector-tag">object</span>, it is known as inheritance.
+            <span class="hljs-selector-tag">b</span>. it provides <span class="hljs-selector-tag">code</span> reusability.
+            c<span class="hljs-selector-class">.it</span> is used to achive runtime polymorphism.
+        </code></pre><h3 id="2-polymorphism">2. Polymorphism</h3>
+        <pre><code> a.If one task <span class="hljs-keyword">is</span> perfomed <span class="hljs-keyword">in</span> different ways, it <span class="hljs-keyword">is</span> know <span class="hljs-keyword">as</span> polymorphism. 
+         b.In java, we used <span class="hljs-function"><span class="hljs-keyword">method</span> <span class="hljs-title">overloading</span> <span class="hljs-title">and</span> <span class="hljs-title">method</span> <span class="hljs-title">overriding</span> <span class="hljs-title">to</span> <span class="hljs-title">achieve</span> <span class="hljs-title">polymorphism</span>.</span>
+        </code></pre><h3 id="3-abstraction">3. Abstraction</h3>
+        <pre><code>    a. Hiding internal details <span class="hljs-keyword">and</span> showing functionality <span class="hljs-keyword">is</span> known <span class="hljs-keyword">as</span> abstraction. <span class="hljs-keyword">For</span> example phone <span class="hljs-keyword">call</span>, we don<span class="hljs-comment">'t know the internal processing.</span>
+            b.<span class="hljs-keyword">In</span> Java, we use abstract <span class="hljs-keyword">class</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">interface</span> <span class="hljs-keyword">to</span> achieve abstraction.
+        </code></pre><h3 id="4-encapsulation">4. Encapsulation</h3>
+        <pre><code>   <span class="hljs-keyword">a</span>. Binding (<span class="hljs-keyword">or</span> wrapping) code <span class="hljs-keyword">and</span> data together <span class="hljs-keyword">into</span> <span class="hljs-keyword">a</span> single unit are known <span class="hljs-keyword">as</span> encapsulation. For example, <span class="hljs-keyword">a</span> capsule, <span class="hljs-keyword">it</span> is wrapped <span class="hljs-keyword">with</span> different medicines.
+           b.A java class is <span class="hljs-keyword">the</span> example <span class="hljs-keyword">of</span> encapsulation. Java bean is <span class="hljs-keyword">the</span> fully encapsulated class because all <span class="hljs-keyword">the</span> data members are <span class="hljs-keyword">private</span> here.
+        </code></pre><h1 id="characteristics-of-object">Characteristics of Object</h1>
+        <p> <b>A.State =</b> Represent the data of an object <br>
+         <b>B.Behavior =</b> Represents the behavior of an object such as deposit, withdraw,etc.<br>
+         <b>C.Identity =</b> It is used internally by the JVM to identify each object uniquely.<br></p>
+        <h1 id="syntax-to-declare-a-class-">Syntax to declare a class:</h1>
+        <p><code> 
+         class Class_Name { <br>
+            field; <br>
+            method;<br>
+            constructor;<br>
+            blocks<br>
+            nested classes or interface<br> </p>
+        <p> }
+        </code></p>
+        <h1 id="instance-variable-in-java">Instance variable in Java</h1>
+        <pre><code><span class="hljs-number">1</span>. A variable which <span class="hljs-keyword">is</span> created inside the <span class="hljs-keyword">class</span> but outside the <span class="hljs-function"><span class="hljs-keyword">method</span> <span class="hljs-title">is</span> <span class="hljs-title">known</span> <span class="hljs-title">as</span> <span class="hljs-title">an</span> <span class="hljs-title">instance</span> <span class="hljs-title">variable</span>.
+        2. <span class="hljs-title">Instance</span> <span class="hljs-title">variable</span> <span class="hljs-title">doesn</span>'<span class="hljs-title">t</span> <span class="hljs-title">get</span> <span class="hljs-title">memory</span> <span class="hljs-title">at</span> <span class="hljs-title">compile</span> <span class="hljs-title">time</span>.
+        3. <span class="hljs-title">It</span> <span class="hljs-title">gets</span> <span class="hljs-title">memory</span> <span class="hljs-title">at</span> <span class="hljs-title">runtime</span> <span class="hljs-title">when</span> <span class="hljs-title">an</span> <span class="hljs-title">object</span> <span class="hljs-title">or</span> <span class="hljs-title">instance</span> <span class="hljs-title">is</span> <span class="hljs-title">created</span>.</span>
+        </code></pre><h1 id="new-keyword">new keyword</h1>
+        <pre><code>  <span class="hljs-number">1</span>  The <span class="hljs-keyword">new</span> keyword <span class="hljs-keyword">is</span> used to allocate memory <span class="hljs-keyword">at</span> runtime. 
+          <span class="hljs-number">2</span>. <span class="hljs-keyword">All</span> objects get memory <span class="hljs-keyword">in</span> Heap memory area.
+        </code></pre><h2 id="3-ways-to-initialize-object">3 Ways to initialize object</h2>
+        <p>There are 3 ways to initialize object in Java.</p>
+        <p>By reference variable <br>
+        By method <br>
+        By constructor <br></p>
+        <h1 id="what-are-the-different-ways-to-create-an-object-in-java-">What are the different ways to create an object in Java?</h1>
+        <h4 id="there-are-many-ways-to-create-an-object-in-java-they-are-">There are many ways to create an object in java. They are:</h4>
+        <p>By new keyword <br>
+        By newInstance() method <br>
+        By clone() method <br>
+        By deserialization <br>
+        By factory method etc.<br></p>
+        <h1 id="constructor">Constructor</h1>
+        <pre><code> <span class="hljs-number">1.</span> Constructor <span class="hljs-keyword">is</span> a special method having the same name <span class="hljs-keyword">as</span> the <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">name</span>. </span>
+         <span class="hljs-number">2.</span> <span class="hljs-keyword">constructor</span> have no any <span class="hljs-keyword">return</span> type 
+         <span class="hljs-number">3.</span> construcotor are of two type A . Non-parametrized <span class="hljs-keyword">constructor</span> B. Parameratrized <span class="hljs-keyword">constructor</span>.
+         <span class="hljs-number">4.</span> <span class="hljs-keyword">constructor</span> <span class="hljs-keyword">is</span> used to initiate the <span class="hljs-keyword">object</span>. 
+         <span class="hljs-number">5.</span> <span class="hljs-keyword">if</span> their <span class="hljs-keyword">is</span> no any <span class="hljs-keyword">constructor</span> present <span class="hljs-keyword">in</span> the <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">JVM</span> <span class="hljs-title">Automatically</span> <span class="hljs-title">added</span> <span class="hljs-title">a</span> <span class="hljs-title">default</span> <span class="hljs-keyword">constructor</span>.</span>
+        </code></pre><h1 id="function-overloading">function overloading</h1>
+        <pre><code>  <span class="hljs-number">1.</span> function overloading <span class="hljs-keyword">is</span> <span class="hljs-keyword">the</span> process <span class="hljs-keyword">of</span> performing <span class="hljs-keyword">the</span> multiple task <span class="hljs-keyword">with</span> <span class="hljs-keyword">the</span> same function <span class="hljs-keyword">by</span> varying <span class="hljs-keyword">the</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> parameter <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> function/method. 
+        
+                    <span class="hljs-comment"># OR</span>
+        If a <span class="hljs-built_in">class</span> has multiple methods having same <span class="hljs-built_in">name</span> <span class="hljs-keyword">but</span> different <span class="hljs-keyword">in</span> parameters, <span class="hljs-keyword">it</span> <span class="hljs-keyword">is</span> known <span class="hljs-keyword">as</span> Method Overloading.
+        </code></pre><h2 id="different-ways-to-overload-the-method">Different ways to overload the method</h2>
+        <h4 id="there-are-two-ways-to-overload-the-method-in-java">There are two ways to overload the method in java</h4>
+        <ol>
+        <li>By changing number of arguments</li>
+        <li>By changing the data type</li>
+        <li>not possible by changing return type due to ambiguity problem</li>
+        </ol>
+        <h1 id="method-overriding">method overriding</h1>
+        <pre><code><span class="hljs-number">1</span>. <span class="hljs-keyword">If</span> subclass (child <span class="hljs-keyword">class</span>) <span class="hljs-keyword">has</span> the same <span class="hljs-function"><span class="hljs-keyword">method</span> <span class="hljs-title">as</span> <span class="hljs-title">declared</span> <span class="hljs-title">in</span> <span class="hljs-title">the</span> <span class="hljs-title">parent</span> <span class="hljs-title">class</span>, <span class="hljs-title">it</span> <span class="hljs-title">is</span> <span class="hljs-title">known</span> <span class="hljs-title">as</span> <span class="hljs-title">method</span> <span class="hljs-title">overriding</span> <span class="hljs-title">in</span> <span class="hljs-title">Java</span>.</span>
+        </code></pre><h2 id="importance-of-overriding">importance of overriding</h2>
+        <ol>
+        <li>Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.</li>
+        <li>Method overriding is used for runtime polymorphism</li>
+        </ol>
+        <h1 id="rules-for-java-method-overriding">Rules for Java Method Overriding</h1>
+        <p>a. The method must have the same name as in the parent class <br>
+        b. The method must have the same parameter as in the parent class.<br>
+        c. There must be an IS-A relationship (inheritance).</p>
+        <h1 id="static-keyword-in-java">static keyword in java</h1>
+        <pre><code>1. static keyword is basically used for the memory management/optimization.
+        
+        2. it can be <span class="hljs-keyword">use</span> during the <span class="hljs-keyword">variable</span> <span class="hljs-keyword">creation</span>(know <span class="hljs-keyword">as</span> <span class="hljs-keyword">instance</span> <span class="hljs-keyword">variable</span>) , <span class="hljs-keyword">in</span> the method <span class="hljs-keyword">creation</span>(also know <span class="hljs-keyword">as</span> <span class="hljs-keyword">class</span> mehod)
+        
+        <span class="hljs-number">3.</span> The <span class="hljs-keyword">static</span> <span class="hljs-keyword">variable</span> gets <span class="hljs-keyword">memory</span> <span class="hljs-keyword">only</span> once <span class="hljs-keyword">in</span> the <span class="hljs-keyword">class</span> area <span class="hljs-keyword">at</span> the <span class="hljs-keyword">time</span> <span class="hljs-keyword">of</span> <span class="hljs-keyword">class</span> loading.
+        
+        <span class="hljs-number">4.</span>The <span class="hljs-keyword">static</span> <span class="hljs-keyword">variable</span> can be used <span class="hljs-keyword">to</span> refer <span class="hljs-keyword">to</span> the common property <span class="hljs-keyword">of</span> all objects (which <span class="hljs-keyword">is</span> <span class="hljs-keyword">not</span> <span class="hljs-keyword">unique</span> <span class="hljs-keyword">for</span> <span class="hljs-keyword">each</span> <span class="hljs-keyword">object</span>), <span class="hljs-keyword">for</span> example, the company <span class="hljs-keyword">name</span> <span class="hljs-keyword">of</span> employees, college <span class="hljs-keyword">name</span> <span class="hljs-keyword">of</span> students, etc.
+        </code></pre><h2 id="advantages-of-static-variable">Advantages of static variable</h2>
+        <p>It makes your program memory efficient (i.e., it saves memory).</p>
+        <hr>
+        <h4 id="for-example-visit-the-links-https-www-javatpoint-com-static-keyword-in-java">for example visit the links : =&gt; <a href="https://www.javatpoint.com/static-keyword-in-java">https://www.javatpoint.com/static-keyword-in-java</a></h4>
+        <p><br></p>
+        <h1 id="this-reference-variable-keyword-in-java">this(Reference Variable) keyword in Java</h1>
+        <pre><code> <span class="hljs-number">1.</span>  In Java, this <span class="hljs-keyword">is</span> a &lt;b&gt;<span class="hljs-keyword">reference</span> variable&lt;b&gt; <span class="hljs-keyword">that</span> refers <span class="hljs-keyword">to</span> <span class="hljs-keyword">the</span> current object.
+        </code></pre><h2 id="usage-of-java-this-keyword">Usage of Java this keyword</h2>
+        <pre><code> 1. this can be used to refer current class<span class="hljs-built_in"> instance </span>variable.(i.e:to remove the ambiguity<span class="hljs-built_in"> if </span>the parameter<span class="hljs-built_in"> and </span>instance variable having same name)
+        
+         2. this can be used to<span class="hljs-built_in"> invoke </span>current class method (implicitly)
+        
+         3. this() can be used to<span class="hljs-built_in"> invoke </span>current class<span class="hljs-keyword"> constructor</span>.(it is used for<span class="hljs-keyword"> constructor</span> chaining OR  It is used to reuse the<span class="hljs-keyword"> constructor</span>. )
+        
+         // you have to only know  three usages  
+        
+         4. this can be passed as an argument in the method call.
+        
+         5. this can be passed as argument in the<span class="hljs-keyword"> constructor</span> call.
+        
+         6. this can be used to<span class="hljs-built_in"> return </span>the current class<span class="hljs-built_in"> instance </span>from the method.
+        
+         Notes<span class="hljs-keyword"> :</span> for example see the ConceptOfThisKeyword in the repo 
+        
+         https://github.com/jigneshsharma123/javaString-Practice
+        </code></pre><h1 id="-to-study-more-about-the-types-of-inheritance-in-java">@To study more about the types of inheritance in java</h1>
+        <p> visit : <a href="https://www.javatpoint.com/inheritance-in-java">https://www.javatpoint.com/inheritance-in-java</a></p>
+        <h2 id="covariant-return-type">Covariant Return Type</h2>
+        <pre><code> <span class="hljs-number">1.</span> This feature was introduced <span class="hljs-keyword">in</span> Java <span class="hljs-number">5.</span>
+         <span class="hljs-number">2.</span> <span class="hljs-keyword">it</span> <span class="hljs-keyword">is</span> possible <span class="hljs-keyword">to</span> override method <span class="hljs-keyword">by</span> changing <span class="hljs-keyword">the</span> <span class="hljs-literal">return</span> type <span class="hljs-keyword">if</span> subclass overrides any method <span class="hljs-keyword">whose</span> <span class="hljs-literal">return</span> type <span class="hljs-keyword">is</span> Non-Primitive <span class="hljs-keyword">but</span> <span class="hljs-keyword">it</span> changes <span class="hljs-keyword">its</span> <span class="hljs-literal">return</span> type <span class="hljs-keyword">to</span> subclass type.
+        </code></pre><h4 id="example">example</h4>
+        <pre><code><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
+            <span class="hljs-type">Animal</span> get() {
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+            }
+        }
+        
+        <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Animal</span> </span>{
+           <span class="hljs-meta">@Override</span>
+            <span class="hljs-type">Dog</span> get() {
+                <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>;
+            }
+        }
+        </code></pre><h2 id="super-keyword-in-java">Super Keyword in Java</h2>
+        <pre><code>
+        1. The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+        
+        
+        2. Whenever you create the<span class="hljs-built_in"> instance </span>of subclass, an<span class="hljs-built_in"> instance </span>of parent class is created implicitly which is referred by super reference variable.
+        </code></pre><h4 id="usage-of-java-super-keyword">Usage of Java super Keyword</h4>
+        <pre><code>A. uper can be used to refer immediate parent class<span class="hljs-built_in"> instance </span>variable.
+        
+        B. super can be used to<span class="hljs-built_in"> invoke </span>immediate parent class method.
+        
+        c. super() can be used to<span class="hljs-built_in"> invoke </span>immediate parent class<span class="hljs-keyword"> constructor</span>.
+        </code></pre><h4 id="final-keyword-in-java">Final Keyword In Java</h4>
+        <pre><code><span class="hljs-number">1</span>. The <span class="hljs-keyword">final</span> keyword <span class="hljs-keyword">in</span> java <span class="hljs-keyword">is</span> used <span class="hljs-keyword">to</span> restrict the user.
+        
+        <span class="hljs-number">2</span>. <span class="hljs-keyword">Final</span> can be (<span class="hljs-keyword">Var</span>, <span class="hljs-function"><span class="hljs-keyword">method</span>, <span class="hljs-title">and</span> <span class="hljs-title">class</span>)</span>
+        </code></pre><p><img src="final.jpg" alt="Alt text"> </p>
+        <h1 id="polymorphism-in-java">Polymorphism in java</h1>
+        <pre><code><span class="hljs-number">1.</span> <span class="hljs-type">Polymorphism</span> in <span class="hljs-type">Java</span> is a concept by which we can perform a single action in different ways.
+        
+        <span class="hljs-number">2.</span><span class="hljs-type">Let</span><span class="hljs-symbol">'s</span> first understand the upcasting before <span class="hljs-type">Runtime</span> <span class="hljs-type">Polymorphism</span>.
+        
+        <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">A</span></span>{}  
+        <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">B</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">A</span></span>{}  
+        <span class="hljs-type">A</span> a=<span class="hljs-keyword">new</span> <span class="hljs-type">B</span>();<span class="hljs-comment">//upcasting</span>
+        </code></pre><p><img src="java-upcasting.png" alt="Alt text"></p>
+        <h4 id="example-of-java-runtime-polymorphism">Example of Java Runtime Polymorphism</h4>
+        <pre><code><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Bike</span></span>{  
+          void run(){<span class="hljs-type">System</span>.out.println(<span class="hljs-string">"running"</span>);}  
+        }  
+        <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Splendor</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Bike</span></span>{  
+          void run(){<span class="hljs-type">System</span>.out.println(<span class="hljs-string">"running safely with 60km"</span>);}  
+        
+          public static void main(<span class="hljs-type">String</span> args[]){  
+            <span class="hljs-type">Bike</span> b = <span class="hljs-keyword">new</span> <span class="hljs-type">Splendor</span>();<span class="hljs-comment">//upcasting  </span>
+            b.run();  
+          }  
+        }  
+        <span class="hljs-comment">//op=&gt; running safely with 60km.</span>
+        </code></pre><h2 id="downcasting-by-typecasting">downcasting by typecasting</h2>
+        <pre><code>Dog d=<span class="hljs-keyword">new</span> <span class="hljs-type">Animal</span>();<span class="hljs-comment">//Compilation error  </span>
+        Dog d=(Dog)<span class="hljs-keyword">new</span> <span class="hljs-type">Animal</span>();  
+        <span class="hljs-comment">//Compiles successfully but ClassCastException is thrown at runtime</span>
+        </code></pre><h2 id="abstract-class-in-java">Abstract class in Java</h2>
+        <pre><code><span class="hljs-number">1</span>. A <span class="hljs-keyword">class</span> which <span class="hljs-keyword">is</span> declared <span class="hljs-keyword">with</span> the <span class="hljs-keyword">abstract</span> keyword <span class="hljs-keyword">is</span> known <span class="hljs-keyword">as</span> an <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> <span class="hljs-keyword">in</span> Java. 
+        
+        <span class="hljs-number">2</span>. Abstraction <span class="hljs-keyword">is</span> a process <span class="hljs-keyword">of</span> hiding the <span class="hljs-keyword">implementation</span> details <span class="hljs-keyword">and</span> showing only functionality <span class="hljs-keyword">to</span> the user.
+        
+        <span class="hljs-number">3</span>. There are two ways <span class="hljs-keyword">to</span> achieve abstraction <span class="hljs-keyword">in</span> java
+        
+        a. <span class="hljs-keyword">Abstract</span> <span class="hljs-keyword">class</span> (<span class="hljs-number">0</span> <span class="hljs-keyword">to</span> <span class="hljs-number">100</span>%)
+        b. <span class="hljs-keyword">Interface</span> (<span class="hljs-number">100</span>%)
+        
+        <span class="hljs-number">4</span>.  It can have <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">and</span> non-<span class="hljs-keyword">abstract</span> methods.
+        </code></pre><h3 id="rules-for-java-abstraction">Rules for Java Abstraction</h3>
+        <ol>
+        <li>An abstract class must be declared with an abstract keyword.</li>
+        <li>It can have abstract and non-abstract methods.</li>
+        <li>It cannot be instantiated.</li>
+        <li>It can have constructors and static methods also.</li>
+        <li>It can have final methods which will force the subclass not to change the body of the method.</li>
+        </ol>
+        <h5 id="example-of-abstract-class">Example of abstract class</h5>
+        <p><code>
+        abstract class A{}  </code> <br></p>
+        <h5 id="example-of-abstract-method">Example of abstract method</h5>
+        <p><code>
+        abstract void printStatus();//no method body and abstract   </code> <br></p>
+        <h1 id="exmple-of-abstraction">exmple of Abstraction</h1>
+        <p><code></p>
+        <p>abstract class Bike{<br>  abstract void run();<br>}<br>class Honda4 extends Bike{<br>void run(){System.out.println(&quot;running safely&quot;);}<br>public static void main(String args[]){<br> Bike obj = new Honda4();<br> obj.run();<br>}<br>}<br></code></p>
+        <h2 id="factory_method-">Factory_Method()</h2>
+        <pre><code><span class="hljs-number">1</span>. A factory <span class="hljs-function"><span class="hljs-keyword">method</span> <span class="hljs-title">is</span> <span class="hljs-title">a</span> <span class="hljs-title">method</span> <span class="hljs-title">that</span> <span class="hljs-title">returns</span> <span class="hljs-title">the</span> <span class="hljs-title">instance</span> <span class="hljs-title">of</span> <span class="hljs-title">the</span> <span class="hljs-title">class</span>.</span>
+        </code></pre><h1 id="interface-in-java">Interface in JAVA</h1>
+        <pre><code><span class="hljs-number">1</span>. <span class="hljs-keyword">In</span> Java, An <span class="hljs-keyword">interface</span> <span class="hljs-keyword">is</span> a collection <span class="hljs-keyword">of</span> <span class="hljs-keyword">abstract</span> methods.
+        
+        <span class="hljs-number">2</span>. It <span class="hljs-keyword">is</span> used <span class="hljs-keyword">to</span> achieve abstraction.
+        
+        <span class="hljs-number">3</span>. <span class="hljs-keyword">By</span> <span class="hljs-keyword">interface</span>, we can support the functionality <span class="hljs-keyword">of</span> multiple inheritance
+        </code></pre><p><img src="interface.png" alt="Alt text"></p>
+        <h2 id="the-relationship-between-classes-and-interfaces">The relationship between classes and interfaces</h2>
+        <p><img src="interfacerelation.jpg" alt="Alt text"></p>
+        <h2 id="java-interface-example">Java Interface Example</h2>
+        <p>interface printable{<br>void print();<br>}<br>class A6 implements printable{<br>public void print(){System.out.println(&quot;Hello&quot;);}  </p>
+        <p>public static void main(String args[]){<br>A6 obj = new A6();<br>obj.print();<br> }<br>}  </p>
+        <h2 id="access-modifiers-in-java">Access Modifiers in Java</h2>
+        <pre><code><span class="hljs-number">1.</span> Private: The access level <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> <span class="hljs-keyword">private</span> modifier is only <span class="hljs-keyword">within</span> <span class="hljs-keyword">the</span> class. It cannot be accessed <span class="hljs-built_in">from</span> outside <span class="hljs-keyword">the</span> class.
+        
+        <span class="hljs-number">2.</span> Default: The access level <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> default modifier is only <span class="hljs-keyword">within</span> <span class="hljs-keyword">the</span> package. It cannot be accessed <span class="hljs-built_in">from</span> outside <span class="hljs-keyword">the</span> package. If you <span class="hljs-built_in">do</span> <span class="hljs-keyword">not</span> specify <span class="hljs-keyword">any</span> access level, <span class="hljs-keyword">it</span> will be <span class="hljs-keyword">the</span> default.
+        
+        
+        <span class="hljs-number">3.</span> Protected: The access level <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> protected modifier is <span class="hljs-keyword">within</span> <span class="hljs-keyword">the</span> package <span class="hljs-keyword">and</span> outside <span class="hljs-keyword">the</span> package through child class. If you <span class="hljs-built_in">do</span> <span class="hljs-keyword">not</span> make <span class="hljs-keyword">the</span> child class, <span class="hljs-keyword">it</span> cannot be accessed <span class="hljs-built_in">from</span> outside <span class="hljs-keyword">the</span> package.
+        
+        
+        <span class="hljs-number">4.</span> Public: The access level <span class="hljs-keyword">of</span> <span class="hljs-keyword">a</span> public modifier is everywhere. It can be accessed <span class="hljs-built_in">from</span> <span class="hljs-keyword">within</span> <span class="hljs-keyword">the</span> class, outside <span class="hljs-keyword">the</span> class, <span class="hljs-keyword">within</span> <span class="hljs-keyword">the</span> package <span class="hljs-keyword">and</span> outside <span class="hljs-keyword">the</span> package.
+        </code></pre><h3 id="let-s-understand-the-access-modifiers-in-java-by-a-simple-table-">Let&#39;s understand the access modifiers in Java by a simple table.</h3>
+        <h1 id="access-modifiers-in-java">Access Modifiers in Java</h1>
+        <p>This table illustrates the accessibility of members with different access modifiers within and outside a Java class.</p>
+        <table>
+        <thead>
+        <tr>
+        <th>Access Modifier</th>
+        <th>Within Class</th>
+        <th>Within Package</th>
+        <th>Outside Package (by Subclass Only)</th>
+        <th>Outside Package</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Private</td>
+        <td>Y</td>
+        <td>N</td>
+        <td>N</td>
+        <td>N</td>
+        </tr>
+        <tr>
+        <td>Default</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>N</td>
+        <td>N</td>
+        </tr>
+        <tr>
+        <td>Protected</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>N</td>
+        </tr>
+        <tr>
+        <td>Public</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>Y</td>
+        </tr>
+        </tbody>
+        </table>
+        <ul>
+        <li><strong>Private:</strong> Members with private access modifier are accessible only within the same class.</li>
+        <li><strong>Default:</strong> Members with default access modifier (no modifier) are accessible within the same package.</li>
+        <li><strong>Protected:</strong> Members with protected access modifier are accessible within the same package and by subclasses even outside the package.</li>
+        <li><strong>Public:</strong> Members with public access modifier are accessible from anywhere.</li>
+        </ul>
+        <h1 id="what-is-encapsulation-in-java">what is Encapsulation in java</h1>
+        <ol>
+        <li>Encapsulation in java is a process of wrapping code and data together into a single unit, for example , a capsule which is mixed of several medicines.</li>
+        </ol>
+        
+</body>
+</html>

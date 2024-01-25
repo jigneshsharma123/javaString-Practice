@@ -12,15 +12,8 @@ James Gosling is known as the father of Java.
 ***
 # Features of Java
 
-```
-1. Simple
-2. object-oriented
-3. platform independent
-4. secured
-5. robust
-6. multithread
-7. high performance
-```
+<img src="./java-features.png" width="350px">
+
 
 ## what is class and object's in java 
 ```
@@ -41,7 +34,10 @@ James Gosling is known as the father of Java.
    ```
 ### 2. Polymorphism 
  ```
- a.If one task is perfomed in different ways, it is know as polymorphism. 
+ a.Polymorphism in Java is a concept by which we can perform a single action in different ways. 
+                   OR
+   Performing a single action in different ways is known as polymorphism in Java.
+   
  b.In java, we used method overloading and method overriding to achieve polymorphism. 
  
  ```
@@ -408,8 +404,26 @@ This table illustrates the accessibility of members with different access modifi
 - **Protected:** Members with protected access modifier are accessible within the same package and by subclasses even outside the package.
 - **Public:** Members with public access modifier are accessible from anywhere.
 
-# what is Encapsulation in java
+# NORMAL - FORM 
 
-1. Encapsulation in java is a process of wrapping code and data together into a single unit, for example , a capsule which is mixed of several medicines.
 
+1. 1NF - > 
+   
+   * Eliminate duplicate columns from the same table.
+   
+   * Each column should contain only atomic (indivisible) values.
+   
+   * Create a separate table for each set of related data and assign a primary key to uniquely identify each record.
+2. 2NF -> 
+    
+    * Meet the requirements of 1NF.
+    
+    * A table is in 2NF if it is in 1NF and all non-key attributes are fully functionally dependent on the primary key.
+3. 3NF ->
+    
+    * Meet the requirements of 2NF.
+    
+    * Eliminate transitive dependencies by moving columns that are not dependent on the primary key to a new table.
+    
+    * A table is in 3NF if it is in 2NF and there are no transitive dependencies.
 
